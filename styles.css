@@ -1,0 +1,140 @@
+body {
+    margin: auto;
+    height: 100%;
+    max-width: 725px;
+    min-width: 730px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ecf0dd;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+#container {
+  display: grid;
+  border: 3px solid black;
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+#container > div:hover {
+  border-style: ridge;
+  border: 1px solid gray;
+}
+
+button {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  box-shadow: 0px 0px 0px 0px #000000;
+	background:linear-gradient(to bottom, #eae0c2 5%, #ccc2a6 100%);
+	background-color:#eae0c2;
+	border-radius:8px;
+	border:2px solid #333029;
+	display:inline-block;
+	cursor:pointer;
+	color:#131704;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+  outline: none;
+}
+
+button:hover {
+	background:linear-gradient(to bottom, #ccc2a6 5%, #eae0c2 100%);
+	background-color:#ccc2a6;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+#engage {
+  padding:6px 62px;
+}
+
+#grayScaleMode {
+  padding:6px 10px;
+  float: left;
+  background: #afb0aa;
+}
+
+#grayScaleMode:hover {
+  box-shadow: 0px 0px 12px 4px #000000;
+}
+
+#colorMode {
+  padding:6px 10px;
+  float: right;
+  margin-right: 25px;
+}
+
+#colorMode:hover {
+  box-shadow: 0px 1px 12px 4px #b31623;
+  background:linear-gradient(to bottom, #00f539 5%, #1b00b3 100%);
+  background-color:#00f539;
+  border:2px solid #735715;
+  color:#fff261;
+  text-shadow:0px 0px 0px #94a5a6;
+}
+
+#blackMode {
+  padding:6px 10px;
+  float: center;
+  background: white;
+}
+
+#blackMode:hover {
+  box-shadow: 0px 0px 12px 4px #000000;
+  background: black;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family:Trebuchet MS;
+  position: relative;
+
+}
+
+li {
+  float: left;
+  display: block;
+  padding: 22px;
+  padding-bottom: 0px;
+}
+
+#clear {
+  margin-left: 60px;
+  font-size: 22px;
+
+}
+#showGrid {
+  padding:6px 10px;
+  margin-left: 55px;
+}
+
+input[type=text] {
+  width: 30%;
+  padding: 4px;
+  margin: 12px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+input[type=text]:focus {
+  border: 3px solid black;
+}
+
+input[type=checkbox] {
+  margin: 16px 0;
+}

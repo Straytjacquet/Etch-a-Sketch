@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+  <html lang ="en">
+<head>
+  <meta charset = "UTF-8"/>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Etch-a-Sketch!</h1>
+
+  <div id="topBar">
+    <div class="table">
+      <ul id="horizontal-list">
+
+        <li>
+          <form id="gridSize">
+            <label for="gsize">Grid size:</label>
+            <input type="text" name="gize" value="16">
+          </form>
+        </li>
+
+        <li><button id="clear">Clear</button></li>
+
+        <li>
+          <form id="showGrid">
+            <input type="checkbox" id="checkbox1" value="toggleGrid">
+            <label for="checkbox1">Show Grid Lines</label><br>
+          </form>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="container"></div>
+
+  <button id="grayScaleMode">Gray Scale Mode</button>
+  <button id="blackMode">Black Mode</button>
+  <button id="colorMode">Color Mode</button>
+
+<script src="scripts.js"></script>
+
+</body>
+</html>
