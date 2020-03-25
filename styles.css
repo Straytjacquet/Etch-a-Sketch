@@ -10,6 +10,7 @@ body {
 
 h1 {
   font-family: monospace;
+  margin-block-end: 10px;
 }
 
 #container {
@@ -95,6 +96,12 @@ button:active {
   color: white;
 }
 
+#topBar {
+  width: 700px;
+  height: 65px;
+  margin-left: 3px;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -108,17 +115,23 @@ li {
   float: left;
   display: block;
   padding: 22px;
+  padding-top: 10px;
   padding-bottom: 0px;
 }
 
+#gridSize {
+  text-align: left;
+}
+
 #clear {
-  margin-left: 60px;
+  margin-left: 40px;
   font-size: 22px;
 
 }
 #showGrid {
   padding:6px 10px;
-  margin-left: 55px;
+  margin-left: 93px;
+  text-align: right;
 }
 
 input[type=text] {
