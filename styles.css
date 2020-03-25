@@ -99,7 +99,9 @@ button:active {
 #topBar {
   width: 700px;
   height: 65px;
-  margin-left: 3px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
 ul {
@@ -124,13 +126,14 @@ li {
 }
 
 #clear {
-  margin-left: 40px;
+
+  margin-left: 10px;
   font-size: 22px;
 
 }
 #showGrid {
   padding:6px 10px;
-  margin-left: 93px;
+  margin-left: 60px;
   text-align: right;
 }
 
